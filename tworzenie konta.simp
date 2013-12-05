@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="6.51" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="P8bf70f4d9498442fb5243c7b465c622f">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p250034327893968598" name="Model 1" type="" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>12/05/2013 23:23:07</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p906447394368401614" name="ClassDiagram1" order-index="1" show-nullability="true" show-attributes="true" show-operations="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/05/2013 23:23:07</creation-date>
+          <change-date>12/05/2013 23:44:39</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values />
+        <abstract-items>
+          <item id="di182408817323677982" cid="C001" type="class" name="Dane" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:23:11">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a770424a2be1e4a729f700b1800792998406" name="IMIE" type="" type-id="" visibility="public" abstract="false" virtual="false" />
+              <attribute id="a9921dbc5ae8c4438aa8b1f56829731e271" name="NAZWISKO" type="" type-id="" visibility="public" abstract="false" virtual="false" />
+              <attribute id="ab21ffa9cf1d34a49b02a2b1a6dcfd8c5646" name="data urodzenia" type="" type-id="" visibility="public" abstract="false" virtual="false" />
+              <attribute id="a1b0dedac1b9041d3b7f493ae3b23a748423" name="Login" type="" type-id="" visibility="public" abstract="false" virtual="false" />
+              <attribute id="ac37682d82e204735a4ac3e79f21ab25f862" name="hasło" type="" type-id="" visibility="public" abstract="false" virtual="false" />
+              <attribute id="add164333c08a410cbc92a00fc4c9658e750" name="email" type="" type-id="" visibility="public" abstract="false" virtual="false" />
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di173438359782310878" cid="C002" type="class" name="Konto" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:28:05">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a13d5e184bbba46a8a262f2851f0aefdc734" name="validator" type="" type-id="" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="o6594cd5184054bbb99b2fa8b1c3e0b3b556" name="Tworzenie" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="Dane data" type="" type-id="" default-value="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di513503382421906731" cid="C003" type="class" name="validator" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:36:23">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="oe2a2daa1149d438e922b4ff6b702e1c0111" name="Check" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di619491880496874353" cid="C004" type="class" name="Dane wymagane" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:38:53">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o369a7930b45549c9bdc5b39422df5077262" name="datecheck" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di899862197374556999" cid="REL003" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:39:45">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di513503382421906731" to="di619491880496874353">
+              <start-role id="" name="" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di418074134371927602" cid="C005" type="class" name="regulamin" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:39:51">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="oc07eb4dbc9f343c6a17a40fbca492660471" name="regcheck" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di821758691440338071" cid="REL004" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:40:17">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di513503382421906731" to="di418074134371927602">
+              <start-role id="" name="" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di788675328948155311" cid="C006" type="class" name="capatcha" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:40:40">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o78dfdaed580340ff92626326c47cbcf9295" name="capathcacheck" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di575320800773355152" cid="REL005" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:41:25">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di513503382421906731" to="di788675328948155311">
+              <start-role id="" name="" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di252586865862599786" cid="C007" type="class" name="mail" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:41:41">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="obb27b469845b4cb680e0ba251a763108382" name="mailcheck" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di691509999737152300" cid="REL006" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:41:56">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di513503382421906731" to="di252586865862599786">
+              <start-role id="" name="" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di486510754236745238" cid="C008" type="class" name="savedatas" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P8bf70f4d9498442fb5243c7b465c622f" creation-date="12/05/2013 23:44:39">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o5f2a715bcf0849dd9d9bf7c93b3b76f0919" name="savetobase" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="Dane data" type="" type-id="" default-value="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di182408817323677982" iid="aa161d7513fc4bb39844e9b949def6ed" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:23:11" order-index="0" type="entity">
+            <layout ax="114" ay="149" awidth="138" aheight="165" x="114" y="149" width="138" height="165" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di173438359782310878" iid="83f47454bb8746909b9667002a72185e" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:28:05" order-index="1" type="entity">
+            <layout ax="440" ay="142" awidth="147" aheight="172" x="440" y="142" width="147" height="172" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di513503382421906731" iid="81867b82fa4d457980f617d6c095df55" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:36:23" order-index="2" type="entity">
+            <layout ax="740" ay="151" awidth="137" aheight="163" x="740" y="151" width="137" height="163" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di619491880496874353" iid="37e4ba699e01485c9e25cd5bb7b89b45" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:38:53" order-index="3" type="entity">
+            <layout ax="973" ay="81" awidth="127" aheight="127" x="973" y="81" width="127" height="127" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di899862197374556999" iid="bcb8b79c75ff4adbb53e3854b4edfbc6" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:39:45" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="877" y1="205" x2="973" y2="168" start-border-pos="0.333387152548948" end-border-pos="0.82811851201095">
+              <points>
+                <point x="877" y="205" />
+                <point x="973" y="168" />
+              </points>
+            </layout>
+            <relation from="di513503382421906731" from-iid="81867b82fa4d457980f617d6c095df55" to="di619491880496874353" to-iid="37e4ba699e01485c9e25cd5bb7b89b45" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di418074134371927602" iid="85d479459f064296af3b12f13762ab9d" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:39:51" order-index="5" type="entity">
+            <layout ax="976" ay="245" awidth="127" aheight="152" x="976" y="245" width="127" height="152" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di821758691440338071" iid="1be04414da7a4edaa1da699711281a6c" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:40:17" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="877" y1="258" x2="976" y2="296" start-border-pos="0.414831009379194" end-border-pos="0.915381130419279">
+              <points>
+                <point x="877" y="258" />
+                <point x="976" y="296" />
+              </points>
+            </layout>
+            <relation from="di513503382421906731" from-iid="81867b82fa4d457980f617d6c095df55" to="di418074134371927602" to-iid="85d479459f064296af3b12f13762ab9d" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di788675328948155311" iid="1b45acea10d043a1ab7b2fb7b72b8b11" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:40:40" order-index="7" type="entity">
+            <layout ax="962" ay="449" awidth="141" aheight="152" x="962" y="449" width="141" height="152" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di575320800773355152" iid="c0efdd5c41f94226b115fefb8b2cff99" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:41:25" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="871" y1="314" x2="974" y2="449" start-border-pos="0.511515707865249" end-border-pos="0.0210950053330009">
+              <points>
+                <point x="871" y="314" />
+                <point x="974" y="449" />
+              </points>
+            </layout>
+            <relation from="di513503382421906731" from-iid="81867b82fa4d457980f617d6c095df55" to="di788675328948155311" to-iid="1b45acea10d043a1ab7b2fb7b72b8b11" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di252586865862599786" iid="b9abee865bd54148944f242d89654f51" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:41:41" order-index="9" type="entity">
+            <layout ax="685" ay="442" awidth="126" aheight="169" x="685" y="442" width="126" height="169" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di691509999737152300" iid="9e76676663d84ea18a869009ba834ded" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:41:56" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="791" y1="314" x2="765" y2="442" start-border-pos="0.65645014630617" end-border-pos="0.15901365734282">
+              <points>
+                <point x="791" y="314" />
+                <point x="765" y="442" />
+              </points>
+            </layout>
+            <relation from="di513503382421906731" from-iid="81867b82fa4d457980f617d6c095df55" to="di252586865862599786" to-iid="b9abee865bd54148944f242d89654f51" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di486510754236745238" iid="da809a3567e143b39b8876e1460a98e2" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:44:39" order-index="11" type="entity">
+            <layout ax="383" ay="425" awidth="155" aheight="174" x="383" y="425" width="155" height="174" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
